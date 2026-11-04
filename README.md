@@ -1,1 +1,3 @@
-# SQL_Datasets
+# Relational Data Normalization & Open-Source Curation
+
+Transforms raw flat-file CSV datasets (such as global restaurant and commerce records) into fully normalized, third normal form (3NF) relational database structures. Establishes clean primary and foreign key mapping dependencies, validates schema integrity, and stages structured, ready-to-query datasets for open-source publication and advanced analytics.
