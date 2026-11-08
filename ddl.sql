@@ -36,10 +36,7 @@ CREATE TABLE fact_orders (
     Ship_Mode VARCHAR(50) NOT NULL,
     CONSTRAINT fk_orders_customer FOREIGN KEY (Customer_ID) 
         REFERENCES dim_customers(Customer_ID)
-        ON UPDATE CASCADE ON DELETE RESTRICT,
-    CONSTRAINT fk_orders_location FOREIGN KEY (Postal_Code) 
-        REFERENCES dim_locations(Postal_Code)
-        ON UPDATE CASCADE ON DELETE RESTRICT
+        ON UPDATE CASCADE ON DELETE CASCADE
 );
 
 -- 5. Order Items Fact Table (Line Items)
@@ -53,7 +50,7 @@ CREATE TABLE fact_order_items (
         ON UPDATE CASCADE ON DELETE CASCADE,
     CONSTRAINT fk_items_product FOREIGN KEY (Product_ID) 
         REFERENCES dim_products(Product_ID)
-        ON UPDATE CASCADE ON DELETE RESTRICT
+
 );
 
 -- =====================================================================
