@@ -1,0 +1,22 @@
+restaurant_profile_id,cuisine_category,restaurant_price_tier
+2,Burgers & Fast Food,$ Budget
+1,Burgers & Fast Food,$$ Moderate
+3,Burgers & Fast Food,$$$ Premium / Fine Dining
+5,Healthy & Bowls,$ Budget
+4,Healthy & Bowls,$$ Moderate
+6,Healthy & Bowls,$$$ Premium / Fine Dining
+7,Indian & Curries,$ Budget
+8,Indian & Curries,$$ Moderate
+9,Indian & Curries,$$$ Premium / Fine Dining
+10,Indonesian & Asian Street Food,$ Budget
+11,Indonesian & Asian Street Food,$$ Moderate
+12,Indonesian & Asian Street Food,$$$ Premium / Fine Dining
+15,Italian & Pizza,$ Budget
+13,Italian & Pizza,$$ Moderate
+14,Italian & Pizza,$$$ Premium / Fine Dining
+16,Japanese & Sushi,$ Budget
+17,Japanese & Sushi,$$ Moderate
+18,Japanese & Sushi,$$$ Premium / Fine Dining
+21,Mexican & Tacos,$ Budget
+19,Mexican & Tacos,$$ Moderate
+20,Mexican & Tacos,$$$ Premium / Fine Dining

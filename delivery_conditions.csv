@@ -1,0 +1,9 @@
+condition_id,weather_condition,is_peak_hour
+1,Clear,0
+3,Clear,1
+7,Cloudy / Fog,0
+6,Cloudy / Fog,1
+4,Heavy Rain / Storm,0
+5,Heavy Rain / Storm,1
+8,Rainy,0
+2,Rainy,1
