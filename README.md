@@ -19,4 +19,12 @@ This release takes enriched, large-scale food delivery market observations and t
 Kaggle Link: https://www.kaggle.com/datasets/kartikanidhi/global-food-delivery-database
 
 
+# Airlines Passengers Satisfaction Datset
+
+This dataset restructures the classic Airline Passenger Satisfaction dataset into a normalized 12-table relational SQL schema (5 dimension/lookup tables, 2 core entity tables, 1 booking context table, 3 journey-stage rating tables, and 1 satisfaction outcome table).
+Unlike the original single flat table used primarily for out-of-the-box classification or clustering, this normalized layout separates traveler demographics, flight operations, booking context, journey touchpoints (pre-flight, in-flight, and arrival), and survey outcomes. It is designed for practicing relational database design, writing multi-table JOIN and aggregation queries, building ETL/ELT pipelines, or assembling modular feature sets for machine learning.
+
+Kaggle Link: https://www.kaggle.com/datasets/kartikanidhi/airlines-customer-satisfaction-sql-database
+
+
  
